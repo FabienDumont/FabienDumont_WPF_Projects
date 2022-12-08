@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>MVVMEssentials.WPF</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>FabienDumont</Authors>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <RepositoryUrl>https://github.com/FabienDumont/FabienDumont_WPF_Projects</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/FabienDumont/FabienDumont_WPF_Projects</PackageProjectUrl>
+        <Description>
+            Eléments nécessaires pour commencer une application WPF suivant le design pattern MVVM.
+        </Description>
+    </PropertyGroup>
+
+</Project>
