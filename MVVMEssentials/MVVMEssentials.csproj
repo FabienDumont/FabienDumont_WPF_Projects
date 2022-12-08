@@ -7,12 +7,13 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <PackageId>MVVMEssentials.WPF</PackageId>
+        <PackageId>FabienDumont_MVVMEssentials.WPF</PackageId>
         <Version>1.0.0</Version>
         <Authors>FabienDumont</Authors>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
         <RepositoryUrl>https://github.com/FabienDumont/FabienDumont_WPF_Projects</RepositoryUrl>
         <PackageProjectUrl>https://github.com/FabienDumont/FabienDumont_WPF_Projects</PackageProjectUrl>
+        <PackageTags>wpf mvvm</PackageTags>
         <Description>
             Eléments nécessaires pour commencer une application WPF suivant le design pattern MVVM.
         </Description>
