@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomWPFComponents", "Cust
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebaseAdminAuthentification.DependencyInjection", "FirebaseAdminAuthentification.DependencyInjection\FirebaseAdminAuthentification.DependencyInjection.csproj", "{9678D158-5445-4980-9388-CA8D14F83312}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos", "Demos\Demos.csproj", "{D50B87D6-D39A-4C39-990C-67CA8ADF98DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDemo", "WpfDemo\WpfDemo.csproj", "{D50B87D6-D39A-4C39-990C-67CA8ADF98DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

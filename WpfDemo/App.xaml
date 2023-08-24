@@ -1,0 +1,34 @@
+﻿<Application x:Class="WpfDemo.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfDemo"
+             xmlns:converters="clr-namespace:MVVMEssentials.Converters;assembly=MVVMEssentials">
+    <Application.Resources>
+        <ResourceDictionary>
+            
+            <converters:InverseBooleanConverter
+                x:Key="InverseBooleanConverter" />
+            
+            <converters:BooleanToVisibilityConverter
+                x:Key="BooleanToVisibilityConverter"
+                True="Visible"
+                False="Collapsed" />
+            
+            <converters:BooleanToVisibilityConverter
+                x:Key="InvertedBooleanToVisibilityConverter"
+                True="Collapsed"
+                False="Visible" />
+            
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/ButtonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/CheckBoxTheme.xaml"/>
+                <ResourceDictionary Source="Theme/ComboBoxTheme.xaml"/>
+                <ResourceDictionary Source="Theme/MenuButtonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/MenuRadioButtonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/RadioButtonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/TextBlockTheme.xaml"/>
+                <ResourceDictionary Source="Theme/TextBoxTheme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
