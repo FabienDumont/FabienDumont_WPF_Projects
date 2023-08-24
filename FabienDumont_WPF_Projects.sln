@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMEssentials", "MVVMEssentials\MVVMEssentials.csproj", "{70F96956-3413-442B-9996-2463772AC7E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomWPFComponents", "CustomWPFComponents\CustomWPFComponents.csproj", "{1CC3EE91-84E2-4F16-AC9B-8EAB03AFF229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebaseAdminAuthentification.DependencyInjection", "FirebaseAdminAuthentification.DependencyInjection\FirebaseAdminAuthentification.DependencyInjection.csproj", "{9678D158-5445-4980-9388-CA8D14F83312}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70F96956-3413-442B-9996-2463772AC7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F96956-3413-442B-9996-2463772AC7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F96956-3413-442B-9996-2463772AC7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F96956-3413-442B-9996-2463772AC7E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC3EE91-84E2-4F16-AC9B-8EAB03AFF229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC3EE91-84E2-4F16-AC9B-8EAB03AFF229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC3EE91-84E2-4F16-AC9B-8EAB03AFF229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC3EE91-84E2-4F16-AC9B-8EAB03AFF229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9678D158-5445-4980-9388-CA8D14F83312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9678D158-5445-4980-9388-CA8D14F83312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9678D158-5445-4980-9388-CA8D14F83312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9678D158-5445-4980-9388-CA8D14F83312}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

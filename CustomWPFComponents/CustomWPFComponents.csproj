@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <LangVersion>11</LangVersion>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>FabienDumont_CustomWPFComponents.WPF</PackageId>
+        <Version>1.1.0</Version>
+        <Authors>FabienDumont</Authors>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <RepositoryUrl>https://github.com/FabienDumont/FabienDumont_WPF_Projects</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/FabienDumont/FabienDumont_WPF_Projects</PackageProjectUrl>
+        <PackageTags>wpf mvvm</PackageTags>
+        <Description>
+            Les composants personnalisés que j'utilise pour mes projets WPF.
+        </Description>
+    </PropertyGroup>
+
+</Project>
