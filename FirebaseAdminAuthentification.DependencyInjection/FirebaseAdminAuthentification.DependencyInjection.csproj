@@ -7,21 +7,21 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="FirebaseAdmin" Version="2.3.0" />
+        <PackageReference Include="FirebaseAdmin" Version="2.4.0" />
         <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
-        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.11" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.25" />
     </ItemGroup>
 
     <PropertyGroup>
         <PackageId>FabienDumont_FirebaseAdminAuthentification.DependencyInjection</PackageId>
-        <Version>1.1.1</Version>
+        <Version>7.0.0</Version>
         <Authors>FabienDumont</Authors>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
         <RepositoryUrl>https://github.com/FabienDumont/FabienDumont_WPF_Projects</RepositoryUrl>
         <PackageProjectUrl>https://github.com/FabienDumont/FabienDumont_WPF_Projects</PackageProjectUrl>
         <PackageTags>firebase</PackageTags>
         <Description>
-            Utile pour une API d'authentification Firebase.
+            Ajouter une authentification Firebase à une application ASP.NET ou à une application Azure Functions.
         </Description>
     </PropertyGroup>
 
