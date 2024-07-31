@@ -11,10 +11,7 @@ public class InvertedEmptyEnumerableVisibilityConverter : IValueConverter {
 		if (value != null) {
 			
 			IEnumerable enumerable = (IEnumerable)value;
-			int count = 0;
-			foreach (var item in enumerable) {
-				count++;
-			}
+			int count = enumerable.Cast<object?>().Count();
 
 			if (count > 0) {
 				return Visibility.Collapsed;

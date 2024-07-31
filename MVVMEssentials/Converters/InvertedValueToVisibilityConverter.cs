@@ -6,16 +6,16 @@ using System.Windows.Data;
 namespace MVVMEssentials.Converters; 
 
 public class InvertedValueToVisibilityConverter : IValueConverter {
-	public object Convert(object? value, Type targetType, object parameter, CultureInfo culture) {
-		if (value != null && !value.Equals(parameter)) {
+	public object Convert(object? value, Type targetType, object? parameter, CultureInfo culture) {
+		if (value is not null && !value.Equals(parameter)) {
 			return Visibility.Visible;
 		}
 
 		return Visibility.Collapsed;
 	}
 
-	public object ConvertBack(object? value, Type targetType, object parameter, CultureInfo culture) {
-		if (value != null && !value.Equals(Visibility.Visible)) {
+	public object ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture) {
+		if (value is not null && !value.Equals(Visibility.Visible) && parameter is not null) {
 			return parameter;
 		}
 

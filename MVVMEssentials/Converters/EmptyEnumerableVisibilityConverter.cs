@@ -8,13 +8,10 @@ namespace MVVMEssentials.Converters;
 
 public class EmptyEnumerableVisibilityConverter : IValueConverter {
 	public object Convert(object? value, Type targetType, object? parameter, CultureInfo culture) {
-		if (value != null) {
+		if (value is not null) {
 			
 			IEnumerable enumerable = (IEnumerable)value;
-			int count = 0;
-			foreach (var item in enumerable) {
-				count++;
-			}
+			int count = enumerable.Cast<object?>().Count();
 
 			if (count > 0) {
 				return Visibility.Visible;

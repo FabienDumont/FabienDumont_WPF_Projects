@@ -7,7 +7,7 @@ namespace MVVMEssentials.Converters;
 
 public class ValueToVisibilityConverter : IValueConverter {
 	public object Convert(object? value, Type targetType, object? parameter, CultureInfo culture) {
-		if (value != null && value.Equals(parameter)) {
+		if (value is not null && value.Equals(parameter)) {
 			return Visibility.Visible;
 		}
 
@@ -15,7 +15,7 @@ public class ValueToVisibilityConverter : IValueConverter {
 	}
 
 	public object ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture) {
-		if (value != null && value.Equals(Visibility.Visible)) {
+		if (value is not null && value.Equals(Visibility.Visible) && parameter is not null) {
 			return parameter;
 		}
 
