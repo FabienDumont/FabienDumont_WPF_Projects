@@ -9,7 +9,7 @@
 
     <PropertyGroup>
         <PackageId>FabienDumont_CustomWPFComponents.WPF</PackageId>
-        <Version>1.1.0</Version>
+        <Version>8.0.0</Version>
         <Authors>FabienDumont</Authors>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
         <RepositoryUrl>https://github.com/FabienDumont/FabienDumont_WPF_Projects</RepositoryUrl>
